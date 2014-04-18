@@ -1,0 +1,3 @@
+nvcc -I$MPI_HOME/include -L$MPI_HOME/lib -lmpi heat-distribute.cu -o heat-distribute
+scp * nhutminh@172.28.10.236:~/testmpi/heat-distribute
+
