@@ -11,5 +11,5 @@ In the CUDA-aware version, the MPI lib must support CUDA-aware MPI:
 
 Heat-distribution model demonstrates the environment by the matrix of cells, each cell has it own temperature. Within every loop of the model, each cell will compute its new temperature by the average value of its heat and the heat of 8 (Moor neighborhood) cells around it.
 
-The program's still lack of comment to describe more detail about the code. I will improve the readability of it later. 
+The program's still lack of comments to describe more detail about the code. I will improve the readability of it later. 
 
