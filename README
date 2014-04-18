@@ -9,7 +9,7 @@ In the CUDA-aware version, the MPI lib must support CUDA-aware MPI:
 	CRAY MPI (MPT 5.6.2)
 	IBM Platform MPI (8.3)
 
-Heat-distribution model demonstrate the environment by matrix of cells, each cell has it own temperature. Within every loop of the model, each cell will compute its new temperature by the average value of its heat and the heat of 8 (Moor neighborhood) cells around it.
+Heat-distribution model demonstrates the environment by the matrix of cells, each cell has it own temperature. Within every loop of the model, each cell will compute its new temperature by the average value of its heat and the heat of 8 (Moor neighborhood) cells around it.
 
 The program's still lack of comment to describe more detail about the code. I will improve the readability of it later. 
 
